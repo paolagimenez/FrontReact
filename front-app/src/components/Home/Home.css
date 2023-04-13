@@ -1,0 +1,19 @@
+@media ( max-width:768px){
+    ul{
+        flex-direction: column ;
+    }
+}
+
+li{
+    color: rgb(128, 0, 100);
+}
+
+
+.principal-search{
+    height: 100vh;
+}
+
+.container-header{
+    background-color:#c9779de6;
+    height: 500px;
+}

@@ -1,6 +1,13 @@
 
+import { Fragment } from 'react';
+import Navegation from '../Navegation/Navegation';
+
 export default function Persona({info}) {
+   
+       
     return(
+        <Fragment>
+        <Navegation />
         <div className="d-flex align-items-center justify-content-center">
             <p className="col-5">{info.IdPersona}</p>
             <p className="col-5">{info.PerRSoc}</p>
@@ -19,5 +26,6 @@ export default function Persona({info}) {
             </div>
 
         </div>
+     </Fragment>
     )
 }
